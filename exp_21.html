@@ -1,0 +1,120 @@
+<html>
+<head>
+    <title>Experiment 21</title>
+</head>
+<style>
+    body
+    {
+        display: flex;
+        background-color: rgb(50, 50, 51);
+        justify-content: center;
+        padding: 8px;
+        background-size: 500%;
+        color: rgb(255, 255, 255);
+    }
+    .form-container
+    {
+        width: 30%;
+        padding: 10px;
+        border-radius: 20px;
+        border: 2px;
+        background-image: url("https://tse4.mm.bing.net/th/id/OIP.Vo0yH-sCOiVIxYATkkta4wHaEo?w=1680&h=1050&rs=1&pid=ImgDetMain&o=7&rm=3");
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        color: black
+    }
+    h2
+    {
+        font-size: 37;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    input
+    {
+        border: none;
+        background-color: none;
+        margin-top: 5px;
+        background: transparent;
+        width:100%;
+        padding: 8px;
+    }
+    ::placeholder
+    {
+        color: black;
+    }
+    label
+    {
+      display: block;
+      margin-top: 10px;
+    }
+    button
+    {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 20px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+    button:hover
+    {
+        background:fixed;
+    }
+
+</style>
+
+<body>
+<h2><center>Experiment_21</center></h2>
+<div class="form-container">
+    <h2><b>STUDENT REGISTRATION</b></h2>
+
+    <form>
+        <input type="text" placeholder="Enter your full name" required></input><br><br>
+        <input type="tel" placeholder="Enter mobile number" required></input><br><br>
+        <input type="email" placeholder="Enter Email id" required></input><br><br>
+        <input type="date" placeholder="dd-mm-yyyy" required></input><br><br>
+
+        Gender 
+         <br><br>
+           <label for="Male">Male</label>
+             <input type="radio">
+             <br><br>
+           <input type="radio">
+           <label for="Female">Female</label>
+           <br>
+           <select>
+            <option> Select Blood Group</option>
+           <option>A</option>
+           <option>B</option>
+           <option>AB</option>
+           <option>O</option>
+           </select>
+           <br><br>
+
+           
+           Deparatment
+           <select required>
+           <option value =""></option>
+           <option value ="CM">CM</option>
+            <option value ="IT">IT</option>
+           <option value ="CM">ME</option    >
+            <option value ="IT">CE</option>  
+            <ption value ="CM">EE</option>
+            <option value ="EJ">EJ</option>     
+              </select>
+
+           <label>Course</label>
+           <input type="checkbox" name="dept">C
+           <input type="checkbox" name="dept">C++
+           <input type="checkbox" name="dept">Java
+           <input type="checkbox" name="dept">HTML
+           <input type="checkbox" name="dept">PHP
+        
+           <div class="buttons">
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+           </div>
+        </form>
+        </div>  
+</body>
+</html>
